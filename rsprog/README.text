@@ -1,0 +1,101 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+About Rust:
+
+Rust is a modern systems programming language with performance comparable 
+to C and C++.
+
+Rust was originally started in 2006 by Graydon Hoare at Mozilla to build a systems programming language focused on memory safety (e.g., preventing null pointers, dangling pointers, buffer overflows, use-after-free, etc).
+
+Rust is currently maintained by the Rust Foundation, and Rust crates are 
+published and shared through crates.io, the official repository for Rust packages.
+
+It provides memory safety without a garbage collector through its ownership 
+and borrowing model.
+
+Rust programs are compiled using the rustc compiler. It includes Cargo, an 
+integrated build system and package manager for dependency management.
+
+Rust is used in areas such as systems software, embedded systems, networking, 
+and cloud infrastructure.
+
+Rust is being adopted in major projects including the Linux kernel for 
+writing memory-safe kernel components.
+
+Rust supports many platforms including Linux, Windows, macOS, Android, and embedded systems such as ARM-based microcontrollers (e.g., STM32) and embedded application processors (e.g., NXP i.MX).
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+Rust code can be compiled in two ways:
+
+If a Rust program has no external dependencies, it can be compiled directly 
+using the Rust compiler rustc.
+
+rustc main.rs
+
+For real-world projects, Rust uses Cargo, which is the official build 
+system and package manager for Rust.
+
+Cargo requires a project configuration file named Cargo.toml in the project 
+directory.
+
+How to build:
+
+cargo build            # build in debug mode
+cargo run              # build and run in debug mode
+cargo build --release  # build in release mode
+cargo run --release    # build and run in release mode
+
+cargo clean            # remove all build artifacts
+
+Note: Debug build has little or no optimization and includes debug info like symbol tables and debug sections, while release build uses optimizations and typically omits debug information.
+
+Cargo automatically downloads dependency source code from crates.io and 
+compiles them along with the project.
+
+crates.io is the official public repository where Rust developers publish and 
+share reusable Rust crates.
+
+It also generates Cargo.lock file that records the exact versions of all 
+dependencies used in the build.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Basic Concepts:
+
+--hello_world Rust program build
+--Formatted Printing and Placeholders
+--Variable Declaration (let) and Type Inference
+--Primitive Data Types
+--Fixed-Size Arrays
+--Heap Allocation
+--Immutable and Mutable Variables
+--Immutable and Mutable borrows
+--Rust Memory Safety Model
+--String Operations
+--Tuples
+--Ranges
+--Structs for custom data types
+--Functions
+--Closures
+--Control Flow
+--Enum and Pattern Matching
+--Error Handling (Option, Result, unwrap, expect)
+--Common Rust containers
+--Traits and Implementations
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Other concepts
+
+--Supertraits and Struct Composition
+--Trait Derive Attributes (#[derive(...)])
+--Formatting traits
+--Built-in and custom Macros
+--Generics
+--Lifetimes
+--Modules and Visibility Modifiers
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
