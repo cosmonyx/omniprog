@@ -1,4 +1,5 @@
 a.out
 target/
 Cargo.lock
+config.toml
 
